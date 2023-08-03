@@ -83,7 +83,7 @@ span{
     }
 }
 #home{
-    background: linear-gradient(to right,rgb(190, 245, 244), rgb(84, 243, 248));
+    background: linear-gradient(rgb(193, 240, 243), rgb(145, 242, 249));
 }
 
 #name{
@@ -136,15 +136,15 @@ span{
     border-radius: 10px;
     transition: 2s;
 }
-.position-absolute{
+/* .position-absolute{
     font: 700;
-}
+} */
 
 .ed-me{
     margin: 35px;
 }
 
-#portfolio{
+#project{
     background: linear-gradient(rgb(211, 247, 241), rgb(154, 239, 212));
 }
 
