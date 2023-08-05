@@ -1,0 +1,181 @@
+
+html{
+    line-height: 1.15;
+}
+
+
+body{
+    margin: 0;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;    
+     background-color:rgb(160, 235, 247); 
+    }
+
+.bg-n{
+    background: rgb(1, 89, 100);
+}
+#my-nav a:hover{
+    color: #58c2e5;
+
+}
+.nav-item a{
+    color: #062073;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-item a:hover{
+    color: rgb(55, 111, 241);
+    text-decoration: underline;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(252, 251, 251);
+    outline: none;
+}
+
+/* .home-text{
+    margin-top: 150px;
+} */
+
+span{
+    color: rgb(2, 124, 118);
+}
+.short-left-inner{
+    overflow: hidden;
+    font-size: 40px;
+    position: relative;
+    height: 50px;
+    /* bottom: 0px; */
+}
+.rotating-text{
+    display: block;
+    height: 105%;
+    color: #df1d81;
+    animation: spin_words 7s infinite;
+}
+
+@keyframes spin_words{
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}
+#home{
+    background: linear-gradient(to right,rgb(135, 235, 247), rgb(211, 243, 242));
+    
+}
+#text1{
+    color:rgb(174, 62, 234);
+}
+
+#name{
+    color:rgb(4, 147, 119);
+    background-color: #ccffff;
+}
+
+.pos{
+    position: relative;
+    top: 90px;
+    left: 45px;
+}
+.round{
+    border-radius: 23px;
+}
+.card-body img.rounded{
+    max-width: 100%;
+    height: auto;
+}
+
+/* .bg-1{
+    background-color: white;
+} */
+
+.c-bg{ 
+    background: linear-gradient(rgb(211, 247, 241),rgb(118, 232, 236));
+}
+
+.Certificate-item p{
+    color: #075e5e;
+}
+
+/* ========= About====== */
+#about{
+    background: linear-gradient(rgb(211, 247, 241), rgb(106, 234, 239));
+}
+#qualification{
+    background: linear-gradient(to right,rgb(135, 235, 247), rgb(211, 243, 242));
+   
+}
+.btn a:hover{
+    color: rgb(50, 192, 192);
+}
+
+/* ========= skill====== */
+#skills{
+    background: linear-gradient(rgb(116, 230, 238),rgb(169, 230, 242));
+}
+.progress{
+    border-radius: 10px;
+}
+
+.progress .progress-bar{
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+}
+#col1{
+    background: linear-gradient(rgb(245, 160, 204), rgb(4, 242, 234));
+    border-radius: 25px;
+}
+
+#col2{
+    background: linear-gradient(rgb(245, 160, 204), rgb(10, 246, 238));
+    border-radius: 25px;
+}
+/* .position-absolute{
+    font: 700;
+} */
+
+.ed-me{
+    margin: 35px;
+}
+
+#project{
+    background: linear-gradient(rgb(191, 243, 246), rgb(227, 238, 238));
+}
+
+.project-item h3{
+    color: #053848;
+}
+
+/* contact */
+.bg-6{
+    background: linear-gradient(rgb(25, 164, 188), rgb(4, 61, 67));
+    /* background-color: rgb(42, 38, 38); */
+}
+#contact .container{
+    border-radius: 25px;
+}
+
+
